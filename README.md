@@ -17,7 +17,7 @@ Dieses Repository enthält kompakte, minimalistische Beispiele zu den wichtigste
 | Pattern | Kurzbeschreibung | Link |
 |---|---|---|
 | 🏭 Factory | kapselt Objekterzeugung; entscheidet zentral welcher konkrete Typ erstellt wird | https://github.com/GiovyAngy/design-patterns-java/tree/main/creational/factory |
-| 🧪 Abstract Factory | erzeugt ganze Produktfamilien ohne konkrete Klassen zu kennen | https://github.com/GiovyAngy/design-patterns-java/tree/main/creational/abstract-Factory |
+| 🧪 Abstract Factory | erzeugt ganze Produktfamilien ohne konkrete Klassen zu kennen | https://github.com/GiovyAngy/design-patterns-java/tree/main/creational/abstract-factory |
 
 ---
 
