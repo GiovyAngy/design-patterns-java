@@ -39,6 +39,18 @@ Dieses Repository enthält kompakte, minimalistische Beispiele zu den wichtigste
 
 ---
 
+## Vergleichstabelle
+
+| Pattern | Kategorie | Einsatz (Wann?) | Vorteile | Nachteile |
+|---|---|---|---|---|
+| Factory | Erzeugungsmuster | zentrale Auswahl + Erstellung eines konkreten Subtyps | Aufrufer entkoppelt; einheitliche Erzeugung | Fabrik kann zu viel Logik sammeln |
+| Abstract Factory | Erzeugungsmuster | ganze Produktfamilien austauschbar machen | konsistente Produkte; Welten leicht wechselbar | mehr Abstraktion / Interfaces notwendig |
+| Adapter | Strukturmuster | inkompatible Interfaces integrieren | Wiederverwendung von Legacy / Fremd-Code | zusätzliche Schicht; evtl. Overhead |
+| Decorator | Strukturmuster | Verhalten dynamisch ergänzen ohne Subklassen | kombinierbare Erweiterungen; kein Klassenbloat | verschachtelte Wrapper erschweren Debugging |
+| Strategy | Verhaltensmuster | Algorithmen austauschbar zur Laufzeit | sehr testbar; klare Trennung | Auswahl-Logik muss definiert werden |
+| Observer | Verhaltensmuster | automatische Updates bei Zustandänderung | lose Kopplung / PubSub | potentielle Memory-Leaks + Race Conditions |
+
+
 ## Ziel
 
 Dieses Repository ist bewusst **kompakt**, lesbar und für eine allgemeine Wiederholung der behandelten Themen geeignet: keine übermäßig komplizierten realen Domänen.
